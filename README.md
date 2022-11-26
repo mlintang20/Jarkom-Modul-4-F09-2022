@@ -34,6 +34,25 @@ Berikut adalah topologi di GNS3, topologi tersebut sudah dibuat subnet nya juga,
 Berdasarkan tabel tersebut, subnet besar yang dibentuk memiliki NID 10.33.0.0 dengan netmask /20, maka kita tinggal hitung pembagian IP seperti berikut :
 
 ![IPTREE](img/VLSM/IPTree.png)
+Setelah didapatkan IP dan netmask untuk masing - masing subnet, kita bisa masukkan ke tabel terlebih dahulu untuk merapikan dan menata IP
+        
+![HASIL](img/VLSM/HasilPerhitungan.png) 
+
+Setelah itu kita tinggal menyetting/menyamakan IP per node di dalam GNS3 dengan cara membuka Network Configuration nya.
+        
+# Routing
+        
+Setelah menyetting IP di GNS3 nya, kita bisa menambahkan routing dengan cara menambahkan line berikut di console :
+
+`route add -net <NID subnet> netmask <netmask> gw <IP gateway>`
+        
+Routing ditambahkan sesuai tujuan, untuk mengecek bisa dengan perintah seperti berikut :
+        
+`route -n`
+
+Setelah routing dilakukan, maka kita bisa mengetes dengan cara ping dari client - client atau client - server, salah satu contoh bisa dilihat pada screenshot berikut :
+        
+![ROUTING](img/VLSM/Routing.png)        
 
 ## CIDR (Classless Inter Domain Routing) - CISCO PACKET TRACER
 
