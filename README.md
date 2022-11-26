@@ -171,3 +171,9 @@ Testing pada CPT dapat dilakukan dengan tombol Add Simple PDU (P) yang dilambang
    ![Johan-Spendrow](/img/CIDR/Johan-Spendrow.png)
 5. Client Oakleave - Router Minister  
    ![Oakleave-Minister](/img/CIDR/Oakleave-Minister.png)
+
+### Kendala
+
+CIDR-CPT:
+
+- Baru tahu kalau static routing tidak perlu dilakukan pada tiap host, tapi cukup dengan menyetting subnet yang dibawahnya tiap router saja karena pada CIDR terdapat teknik bernama <a href="https://sived.wordpress.com/2012/05/12/supernetting-pada-jaringan-komputer/" target="_blank">Supernetting</a>
