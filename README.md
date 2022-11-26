@@ -156,3 +156,18 @@ Contoh lain:
 ![resonance](/img/CIDR/resonance.png)
 ![instrument](/img/CIDR/instrument.png)
 ![firefist](/img/CIDR/firefist.png)
+
+### Testing
+
+Testing pada CPT dapat dilakukan dengan tombol Add Simple PDU (P) yang dilambangkan dengan icon pesan pada top navigation.
+
+1. Server TheBeast - Router TheQueeen  
+   ![TheBeast-TheQueeen](/img/CIDR/Beast-Queen.png)
+2. Router Dauntless - Router TheProfound  
+   ![Dauntless-Profound](/img/CIDR/Dauntless-Profound.png)
+3. Client Guideau - Server TheWitch  
+   ![Guideau-TheWitch](/img/CIDR/Guideau-Witch.png)
+4. Client Johan - Client Spendrow  
+   ![Johan-Spendrow](/img/CIDR/Johan-Spendrow.png)
+5. Client Oakleave - Router Minister  
+   ![Oakleave-Minister](/img/CIDR/Oakleave-Minister.png)
