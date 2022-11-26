@@ -115,3 +115,14 @@ Berdasarkan perhitungan subnet dan penggabungan subnet yang telah dilakukan, did
 ### Tabel Pembagian IP
 
 Kemudian untuk tabel pembagian IP yang lebih detail berada pada <a href="/Tabel%20Pembagian%20IP%20CIDR.pdf">file berikut</a>.
+
+### Setting IP pada CPT
+
+Berikut adalah contoh setting IP pada CPT:
+
+Untuk router, setting IP dan subnet mask dapat dilakukan dengan double click node > Config > Interface. Sedangkan untuk host bisa dilakukan dengan click node > Desktop > IP Configuration
+
+Berikut adalah salah satu contoh konfigurasi interface pada router utama Resonance dan client Ashaf
+
+![setting-resonance](/img/CIDR/setting_router.png)
+![setting-ashaf](/img/CIDR/setting_client.png)
