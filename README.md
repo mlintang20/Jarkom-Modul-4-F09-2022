@@ -126,3 +126,27 @@ Berikut adalah salah satu contoh konfigurasi interface pada router utama Resonan
 
 ![setting-resonance](/img/CIDR/setting_router.png)
 ![setting-ashaf](/img/CIDR/setting_client.png)
+
+### Routing
+
+Routing pada CPT dapat dilakukan dengan click node router > Config > Routing > Static
+
+#### Default Routing
+
+Default Routing dilakukan pada semua router selain router utama (The Resonance). Default router dilakukan pada router yang berada pada tingkatan lebih bawah dan mengarah pada router diatasnya.
+
+Salah satu contohnya adalah pada router The Magical ke router The Resonance.
+
+![default_magical](/img/CIDR/defaul_routing.png)
+
+Untuk default routing, network dan mask akan diisi 0.0.0.0 . Sedangkan next hop diisi dengan interface dari router diatasnya/sebelumnya.
+
+#### Static Routing
+
+Static Routing dilakukan agar router dapat terhubung dengan client. Pada kali ini karena menggunakan teknik CIDR di CPT, maka Static Routing dilakukan pada semua subnet agar dapat saling terhubung. Namun yang dimasukkan dalam Static Routing tidak perlu semua IP router, hanya subnet nya saja (dapat dilihat pada pohon pembagian IP).
+
+Salah satu contohnya adalah pada router The Order, Static Routing yang dilakukan hanya 1 kali, yaitu pada subnet C1 - 10.33.64.0/21 melalui interface 10.33.72.2
+
+![static_order](/img/CIDR/static_routing.png)
+
+Pada The Order, network dan mask yang dipakai adalah NID dan subnet mask dari subnet di bawahnya (subnet C1). Sedangkan next hop merupakan interface milik router dibawahnya yang terhubung dengan router yang akan dirouting, pada kasus ini interface yang dipakai merupakan interface dari The Minister dengan FastEtherbet 0/0 yang terhubung dengan The Order. Hal ini juga dilakukan pada router-router lain.
