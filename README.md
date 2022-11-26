@@ -54,7 +54,13 @@ Setelah routing dilakukan, maka kita bisa mengetes dengan cara ping dari client 
 
 ![ROUTING](img/VLSM/Routing.png)
 
-## CIDR (Classless Inter Domain Routing) - CISCO PACKET TRACER
+## CIDR (Classless Inter Domain Routing) - CPT (CISCO PACKET TRACER)
+
+### Topologi
+
+Berikut adalah topologi CPT dari kelompok kami:
+
+![topologiCIDR](/img/CIDR/TopologiCIDR.png)
 
 ### Subnetting
 
