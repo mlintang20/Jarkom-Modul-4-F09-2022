@@ -35,24 +35,24 @@ Berdasarkan tabel tersebut, subnet besar yang dibentuk memiliki NID 10.33.0.0 de
 
 ![IPTREE](img/VLSM/IPTree.png)
 Setelah didapatkan IP dan netmask untuk masing - masing subnet, kita bisa masukkan ke tabel terlebih dahulu untuk merapikan dan menata IP
-        
-![HASIL](img/VLSM/HasilPerhitungan.png) 
+
+![HASIL](img/VLSM/HasilPerhitungan.png)
 
 Setelah itu kita tinggal menyetting/menyamakan IP per node di dalam GNS3 dengan cara membuka Network Configuration nya.
-        
+
 # Routing
-        
+
 Setelah menyetting IP di GNS3 nya, kita bisa menambahkan routing dengan cara menambahkan line berikut di console :
 
 `route add -net <NID subnet> netmask <netmask> gw <IP gateway>`
-        
+
 Routing ditambahkan sesuai tujuan, untuk mengecek bisa dengan perintah seperti berikut :
-        
+
 `route -n`
 
 Setelah routing dilakukan, maka kita bisa mengetes dengan cara ping dari client - client atau client - server, salah satu contoh bisa dilihat pada screenshot berikut :
-        
-![ROUTING](img/VLSM/Routing.png)        
+
+![ROUTING](img/VLSM/Routing.png)
 
 ## CIDR (Classless Inter Domain Routing) - CISCO PACKET TRACER
 
@@ -100,8 +100,12 @@ Pada subnetting menggunakan perhitungan CIDR ini, terdapat 10 langkah penggabung
 
 ![stepJ](/img/CIDR/stepJ.png)
 
-### Pembagian IP
+### Pohon Pembagian IP
 
 Berdasarkan perhitungan subnet dan penggabungan subnet yang telah dilakukan, didapatkan subnet terbesar J1 dengan netmask /17. Sehingga didapatkan pembagian IP yang diilustrasikan dengan tree pada gambar berikut ini.
 
 ![cidr_tree](/img/CIDR/treeCIDR.png)
+
+### Tabel Pembagian IP
+
+Kemudian untuk tabel pembagian IP yang lebih detail berada pada file ![tabelIP_CIDR](/Tabel%20Pembagian%20IP%20CIDR.pdf)
