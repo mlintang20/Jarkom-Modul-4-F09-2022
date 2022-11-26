@@ -150,3 +150,9 @@ Salah satu contohnya adalah pada router The Order, Static Routing yang dilakukan
 ![static_order](/img/CIDR/static_routing.png)
 
 Pada The Order, network dan mask yang dipakai adalah NID dan subnet mask dari subnet di bawahnya (subnet C1). Sedangkan next hop merupakan interface milik router dibawahnya yang terhubung dengan router yang akan dirouting, pada kasus ini interface yang dipakai merupakan interface dari The Minister dengan FastEthernet 0/0 yang terhubung dengan The Order. Hal ini juga dilakukan pada router-router lain.
+
+Contoh lain:
+
+![resonance](/img/CIDR/resonance.png)
+![instrument](/img/CIDR/instrument.png)
+![firefist](/img/CIDR/firefist.png)
