@@ -39,6 +39,8 @@ Berdasarkan tabel tersebut, subnet besar yang dibentuk memiliki NID 10.33.0.0 de
 
 ### Subnetting
 
+Pada subnetting menggunakan perhitungan CIDR ini, terdapat 10 langkah penggabungan subnet yang kami lakukan dari step A sampai step J. Penggabungan subnet tersebut dimulai dari subnet terkecil.
+
 #### Langkah 1
 
 ![stepA](/img/CIDR/stepA.png)
