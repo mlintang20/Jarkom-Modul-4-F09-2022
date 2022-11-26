@@ -78,3 +78,9 @@ Berdasarkan tabel tersebut, subnet besar yang dibentuk memiliki NID 10.33.0.0 de
 #### Langkah 10
 
 ![stepJ](/img/CIDR/stepJ.png)
+
+### Pembagian IP
+
+Berdasarkan perhitungan subnet dan penggabungan subnet yang telah dilakukan, didapatkan subnet terbesar J1 dengan netmask /17. Sehingga didapatkan pembagian IP yang diilustrasikan dengan tree pada gambar berikut ini.
+
+![cidr_tree](/img/CIDR/treeCIDR.png)
