@@ -108,4 +108,4 @@ Berdasarkan perhitungan subnet dan penggabungan subnet yang telah dilakukan, did
 
 ### Tabel Pembagian IP
 
-Kemudian untuk tabel pembagian IP yang lebih detail berada pada file ![tabelIP_CIDR](/Tabel%20Pembagian%20IP%20CIDR.pdf)
+Kemudian untuk tabel pembagian IP yang lebih detail berada pada <a href="/Tabel%20Pembagian%20IP%20CIDR.pdf">file berikut</a>.
